@@ -1,0 +1,46 @@
+ 
+.App {
+  text-align: center;
+  background-color: #E9EBEE;
+  margin-top: 0;
+   
+}
+
+
+.main{
+  text-align: center;
+ width: 60%;
+ margin: 16px auto;
+ padding: 16px;
+  border: 1px solid black;
+  
+}
+
+@media(max-width:600px){
+  .main{
+    width: 60%;
+    background-color: green;
+    padding: 16px;
+  }
+} 
+.in{
+  margin-bottom: 40px;
+}
+
+.aa  li{
+  list-style: none;
+ color: indigo;
+width: 80% auto;
+ text-align: center;
+ 
+}
+.red{
+   color:red ;
+}
+.bold{
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  text-emphasis: center;
+  height: auto;
+} 
