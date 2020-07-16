@@ -75,6 +75,10 @@ class BurgerBuiler extends Component {
     this.setState({ isPurchasing: false });
   };
 
+ jari =()=>{
+   alert('you are continueing')
+ }
+
   render() {
     return (
       <div>
@@ -85,6 +89,7 @@ class BurgerBuiler extends Component {
             ingredients={this.state.ingredients}
             price={this.state.totalPrice}
             dis={this.ghayab}
+            conti={this.jari}
           />
         </Modal>
 
