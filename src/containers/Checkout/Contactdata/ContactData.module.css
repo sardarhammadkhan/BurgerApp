@@ -1,0 +1,17 @@
+.contact {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .contact {
+    width: 100%;
+  }
+  .display {
+    margin-left: 50px;
+  }
+}

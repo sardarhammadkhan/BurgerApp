@@ -1,0 +1,8 @@
+.orders {
+  width: 80%;
+  border: 1px solid #eee;
+  margin: auto;
+  margin: 10px auto;
+  box-sizing: border-box;
+  pad: 10px;
+}

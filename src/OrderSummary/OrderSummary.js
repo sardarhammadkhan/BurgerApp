@@ -4,9 +4,10 @@ import React, { Fragment } from 'react'
 
 
 const OrderSummary = (props) => {
+  console.log(props)
   const ingredientlist = Object.keys(props.ingredients)
   .map(igkey => {
-    return <li><span style={{ textTransform: "capitalize" }}>{igkey}</span>: {props.ingredients[igkey]}</li>
+    return <li key={igkey.name}><span style={{ textTransform: "capitalize" }}>{igkey}</span>: {props.ingredients[igkey]}</li>
     
   })
   return (
@@ -22,10 +23,10 @@ const OrderSummary = (props) => {
       <button className="btn btn-primary" onClick={props.conti}>CONNTINUE</button>
     </Fragment>
   )
-}
+} 
 
 export default OrderSummary
-
+ 
 
 
 

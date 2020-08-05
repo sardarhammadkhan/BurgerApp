@@ -1,0 +1,30 @@
+.sidedrawer{
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    max-width: 70%;
+    z-index: 200;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+@media(min-width:800px){
+    .sidedrawer{
+        display: none;
+    }
+}
+.open{
+    transform: translateX(0);
+}
+
+.gyab{
+    display: none;
+}
+
+.logo{
+    
+    height: 11%;
+
+}
